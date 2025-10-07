@@ -4,3 +4,11 @@ A sample portfolio Homepage, showcasing elements of Flexible and Responsive desi
 ## Supported Layouts
 - Widescreen Desktops/Laptops
 - General Tablets
+
+## Licenses
+### Icons
+Icons all belong to their respective users.
+© Google
+
+- [devicon.dev](https://devicon.dev)
+- [Material Design Icon - Pictogrammers](https://pictogrammers.com/library/mdi/)

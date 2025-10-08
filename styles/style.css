@@ -81,6 +81,17 @@ a {
     }
 }
 
+.sns {
+    margin-top: 24px;
+
+    display: flex;
+    gap: 12px;
+}
+
+.about .sns {
+    float: right;
+}
+
 .name {
     position: absolute;
     bottom: 8px;
@@ -151,6 +162,14 @@ footer {
     font-size: 1.3rem;
 }
 
+.contacts > .sns img {
+    filter: invert(1);
+}
+
+.contacts .button-circular:hover {
+    background-color: darkslategrey;
+}
+
 /* Responsive */
 @media screen and (max-width: 1024px) and (min-width: 480px) {
     .spaced-section {
@@ -160,6 +179,14 @@ footer {
     header {
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    .sns {
+        gap: 24px;
+
+        img {
+            width: 40px;
+        }
     }
 
     .portrait {
@@ -209,7 +236,7 @@ footer {
     footer {
         align-items: center;
 
-        img {
+        .footer-img {
             width: 300px;
         }
     }
@@ -228,6 +255,13 @@ footer {
     section {
         padding: 4px;
         margin: 0px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     .portrait {
@@ -259,7 +293,7 @@ footer {
     footer {
         flex-wrap: wrap;
 
-        img {
+        .footer-img {
             width: 100vw;
         }
     }
@@ -270,11 +304,24 @@ footer {
     }
 
     .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         text-align: center;
     }
 
     .contacts > .call-to-action {
         font-size: 1.5rem;
         font-weight: bold;
+    }
+
+    .sns {
+        align-self: center;
+        gap: 24px;
+
+        img {
+            width: 48px;
+        }
     }
 }

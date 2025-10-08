@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="page">
-            <header>
+            <header class="spaced-section">
                 <div class="portrait">
                     <div class="name">Perseus Nelson</div>
                     <img
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </header>
-            <section>
+            <section class="spaced-section">
                 <h1>My Work</h1>
                 <div class="work-gallery">
                     <div class="work-entry shadow-a">
@@ -302,11 +302,31 @@
                     </div>
                 </div>
             </section>
-            <footer>
+            <footer class="spaced-section">
                 <div class="contacts">
                     <h1>Contact Me</h1>
-                    <p></p>
+                    <p class="call-to-action">
+                        Please get in touch if you think our work could be
+                        mutually beneficial!
+                    </p>
+                    <p>109 Wansack Road<br />West Middlesex, Pennsylvania</p>
+
+                    <div class="contact">889-6470-5555</div>
+                    <div class="email">perceusnelson@lmail.com</div>
                 </div>
+                <picture>
+                    <source
+                        media="(width <= 1024px)"
+                        srcset="
+                            https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg
+                        "
+                    />
+                    <img
+                        src="https://images.pexels.com/photos/2182971/pexels-photo-2182971.jpeg"
+                        width="640px"
+                        alt="Perseus Nelson using his Computer"
+                    />
+                </picture>
             </footer>
         </div>
     </body>
